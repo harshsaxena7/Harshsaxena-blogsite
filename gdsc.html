@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            font-family: 'Dosis', sans-serif;
+        }
+
+        .host img {
+            width: 43px;
+            height: 41px;
+            position: relative;
+            right: -11px;
+            top: -219px;
+        }
+
+        .name {
+            position: relative;
+
+            right: -69px;
+            top: -262px;
+            font-size: 34px;
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        .navbar {
+            background-color: rgb(50, 3, 75);
+            width: 100%;
+            height: 220px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: right;
+            list-style: none;
+            margin: 13px 20px;
+            font-size: 21px;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: chartreuse;
+        }
+
+        p {
+            display: inline block;
+            position: relative;
+            text-align: center;
+            color: aliceblue;
+            font-size: 50px;
+            width: 1250px;
+            top: -26px;
+
+
+
+        }
+
+        .button1 button {
+            padding: 6px;
+            margin: 2px;
+            color: aliceblue;
+            background-color: rgb(50, 3, 75);
+            font-size: 16px;
+            border-color: #e0d6d6;
+            cursor: pointer;
+
+
+        }
+
+        .secondnavbar li {
+            padding: 3px 5px;
+            text-decoration: none;
+            color: black;
+            display: inline;
+        }
+
+        .secondnavbar li a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            font-size: 19px;
+        }
+
+        .box1 {
+            position: relative;
+            top: -36px;
+            background-color: #e0d6d6;
+            margin: 6px 14px;
+            padding: 0px 0px 0px 0px;
+            width: 30%;
+            box-sizing: border-box;
+            display: inline-block;
+            height: 570px;
+            justify-content: center;
+
+        }
+
+        .box2 {
+            position: relative;
+            top: -15px;
+            background-color: #e0d6d6;
+            margin: 6px 14px;
+            padding: 0px 0px 0px 0px;
+            width: 30%;
+            box-sizing: border-box;
+            display: inline-block;
+            height: 570px;
+            justify-content: center;
+        }
+        .box3 {
+
+background-color: #e0d6d6;
+margin: -1px 12px;
+padding: 1px 2px 0px 0px;
+width: 30%;
+box-sizing: border-box;
+display: inline-block;
+height: 570px;
+justify-content: center;
+position: relative;
+top: -51px;
+
+}
+
+.container {
+margin: auto;
+width: 1200px;
+flex-direction: column;
+justify-content: center;
+
+}
+
+img {
+width: 99%;
+height: 204px;
+margin: 0%;
+padding: 0px;
+}
+
+.box div {
+text-align: left;
+font-size: 30px;
+}
+
+#d1 {
+font-size: 18px;
+}
+
+
+
+.box3 img {
+width: 99%;
+margin: 0%;
+padding: 0px;
+}
+
+.box3 div {
+font-size: 30px;
+}
+
+.d2 {
+font-size: 30px;
+}
+
+.d3 {
+font-size: 30px;
+}
+
+.d4 {
+
+font-size: 30px;
+}
+
+#p1 {
+font-size: 23px;
+}
+
+#p2 {
+font-size: 23px;
+}
+
+#p3 {
+font-size: 23px;
+}
+
+#b1 {
+position: relative;
+left: 5px;
+top: 10px;
+width: 50%;
+font-size: 16px;
+border-radius: 2px;
+padding: 2px;
+}
+
+#b1 button {
+border-radius: 100px;
+background-color: crimson;
+color: bisque;
+border-color: crimson;
+cursor: pointer;
+}
+
+#b2 button {
+border-radius: 100px;
+background-color: crimson;
+color: bisque;
+border-color: crimson;
+cursor: pointer;
+
+}
+
+#b3 button {
+border-radius: 100px;
+background-color: crimson;
+color: bisque;
+border-color: crimson;
+cursor: pointer;
+
+}
+
+#b4 button {
+border-radius: 100px;
+background-color: crimson;
+color: bisque;
+border-color: crimson;
+cursor: pointer;
+
+}
+
+#b5 button {
+border-radius: 100px;
+background-color: crimson;
+color: bisque;
+border-color: crimson;
+cursor: pointer;
+
+}
+
+#b2 {
+position: relative;
+left: 5px;
+top: 10px;
+font-size: 16px;
+border-radius: 2px;
+cursor: pointer;
+
+
+
+
+}
+
+#b3 {
+position: relative;
+left: 124px;
+top: -13px;
+font-size: 16px;
+border-radius: 2px;
+cursor: pointer;
+
+
+
+}
+
+#b4 {
+position: relative;
+top: 44px;
+left: 5px;
+font-size: 16px;
+font-size: 16px;
+border-radius: 2px;
+cursor: pointer;
+
+}
+
+#b5 {
+position: relative;
+left: 171px;
+top: 21px;
+font-size: 16px;
+border-radius: 2px;
+cursor: pointer;
+
+}
+
+.line hr {
+position: relative;
+top: -9px;
+}
+
+
+.dropbtn {
+background-color:  rgb(50, 3, 75);
+color: white;
+padding: 16px;
+font-size: 23px;
+font-family:'Dosis', sans-serif ;
+border: none;
+}
+
+
+.dropdown {
+position: relative;
+display: inline-block;
+top: -17px;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+</style>
+</head>
+
+<body>
+<header>
+<nav class="navbar">
+<ul>
+    <div class="button1">
+        <li> <button> Get Started </button></li>
+        <li><a><button>Sign In </button></a></li>
+    </div>
+
+
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Email</a></li>
+    <li><a href="#">Domains</a></li>
+   <li> 
+    <div class="dropdown">
+        <button class="dropbtn">Hosting</button>
+        <div class="dropdown-content">
+          <a href="#">HOSTING</a>
+          <a href="#">HOSTING</a>
+          <a href="#">HOSTING</a>
+        </div>
+    </div>
+
+    
+    <li><a href="#">Wordpress Hosting</a></li>
+
+</ul>
+<p>
+    Knowledege to power your website
+</p>
+<div class="host">
+    <img src="gdpic5.png" alt="">
+</div>
+<div class="name">
+    DreamHost
+</div>
+</nav>
+<div class="secondnavbar">
+<ul>
+    <li><a href="#"><strong> Wordpress</strong></a></li>
+    <li><a href="#"><strong>Tutorials</strong></a></li>
+    <li><a href="#"><strong>DreamHost</strong> </a></li>
+    <li><a href="#"><strong>Web Hosting</strong></a></li>
+    <li><a href="#"><strong>Domain</strong></a></li>
+    <li><a href="#"><strong>Web Building</strong></a></li>
+    <input type="search" id="gsearch" name="gsearch">
+    <label for="gsearch"> <strong>Search The Blog</strong></label>
+
+</ul>
+</div>
+<div class="line">
+<hr>
+</div>
+<div class="container">
+<div class="box1"><img src="gdpic1.jpg" alt="">
+    <div class="d2">The WordPress Blogger checklist:10 things to do before hitting publish </div>
+    <div id="d1"> <br>January 7 2022 Megan Harrignton </div>
+    <div id="p1"><br> So you have created a blog post .Its well writetn makes use of yours expert blogging
+        tips and will provide plenty of value to your....</div>
+    <div id="b1"> <button> WORDPRESS</button></div>
+
+</div>
+
+
+<div class="box2"><img src="gdpic3.jpg" alt="">
+    <div class="d3">The Dreamhost Customer Celebrates Holidays (Big and small) on checkiday.com </div>
+    <div id="d1"> <br>January 7 2022 Megan Harrignton </div>
+    <div id="p2"> <br>Blogs have become a subsiquent part of the online landscape . Most Internet users and
+        companies have one and thats no coincidence....</div>
+    <div id="b2"><button> WEB HOSTING</button></div>
+    <div id="b3"> <button> WEBPRESS</button></div>
+
+</div>
+<div class="box3"><img src="gdpic2.jpg " alt="">
+    <div class="d4">How to start a Blog:A Comprehensive Guide </div>
+    <div id="d1"> <br>January 7 2022 Megan Harrignton </div>
+    <div id="p3"><br>Bill Gates likes to give people something is looking forward in each time their morning
+        alarm sounds . Maybe its national german...</div>
+    <div id="b4"> <button> CUSTOMER STORIES</button>
+
+    </div>
+    <div id="b5"> <button> WEB HOSTING</button></div>
+</div>
+</div>
+
+</header>
+
+</body </html>
